@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border: black solid 1px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    width: 200px;
+    height: 36px;
+    border: black solid 1px;
+}
+
+td {
+    background-color: white;
+}
+
+.delete {
+    border: none;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 20px;
+}

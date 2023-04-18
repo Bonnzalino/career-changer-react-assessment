@@ -1,0 +1,32 @@
+.create {
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 300px;
+    background-color: white;
+    margin: 19px;
+    border-radius: 5px;
+    border: blue solid 1px;
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.inputContainer {
+    text-align: center;
+}
+
+.save {
+    margin: 19px;
+    width: 96px;
+    height: 48px;
+    font-size: 18px;
+    text-align: center;
+    background: #5E5BFF;
+    border-radius: 5px;
+    color: white;
+}
