@@ -1,3 +1,5 @@
+import Layout from './Layout';
+
 const mockEmployees = [
   {
     id: 0,
@@ -22,14 +24,14 @@ const mockEmployees = [
 const Home = () => {
 
   return (
-    <div>
-
-    </div>
+    <Layout>
+      <div>
+        Home
+      </div>
+    </Layout>
   )
 }
 
 
 
 export default Home
-
-//test push
