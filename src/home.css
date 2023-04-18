@@ -1,0 +1,17 @@
+.home {
+    text-align: center;
+    margin-top: 60px;
+}
+
+button {
+    height: 56px;
+    width: 178px;
+    padding: 18px;
+    margin: 50px;
+    font-weight: 700;
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}   
