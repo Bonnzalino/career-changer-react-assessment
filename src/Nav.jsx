@@ -1,3 +1,5 @@
+import './nav.css'
+
 const Navbar = () => {
     return (
         <ul>
