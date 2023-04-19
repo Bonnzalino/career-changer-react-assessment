@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import "./create.css"
-
+import { v4 as uuidv4 } from 'uuid';
 
 const Create = ({ setEmployees, employees }) => {
   const nameRef = useRef()
@@ -13,7 +13,7 @@ const Create = ({ setEmployees, employees }) => {
     const lastname = lastnameRef.current.value;
     const position = positionRef.current.value;
     const newMember = {
-      id: 3,
+      id: uuidv4(),
       name,
       lastname,
       position
@@ -29,9 +29,9 @@ const Create = ({ setEmployees, employees }) => {
         <span className='create'>Create User Here</span>
         <br />
         <form className='inputContainer' onSubmit={handleSubmit}>
-            <input type="text" placeholder="Name" ref={nameRef}/>
-            <input type="text" placeholder="Last Name" ref={lastnameRef}/>
-            <input type="text" placeholder="Positon" ref={positionRef}/>
+            <input type="text" placeholder="Name" ref={nameRef} required/>
+            <input type="text" placeholder="Last Name" ref={lastnameRef} required/>
+            <input type="text" placeholder="Positon" ref={positionRef} required/>
             <button type="submit" className='save'>Save</button>
         </form>
     </div>
