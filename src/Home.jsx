@@ -50,7 +50,7 @@ const Home = () => {
   } else if (status === "User") {
     content = <UserPage employees={employees} />;
   } else {
-    content = <div>" "</div>;
+    content = <div></div>;
   }
 
 
